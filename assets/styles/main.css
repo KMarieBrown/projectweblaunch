@@ -2,25 +2,65 @@
 /* CSS Document */
 body{
 	margin: 0 auto;
-	width: auto;
+	width: 100%;
 	background-color: #594646;
 }
-container{
-	width: 80%;
+#container{
+	width: 100%;
 	margin: 0 auto;
-	background-color: white;
-	margin-bottom: 50px;
 }
 header{
-	width: 80%;
-	height: 150px;
-	background-color: white;
-	font-family: Luminari;
-	font-size: 20px;
-	color: #a68181;
-	text-shadow: -4px 0px #594646;
+    width: 100%;
+    height: 150px;
+    background-color: white;
+}
+.logo{
+	padding-left: 1%;
+}
+h1{
+    width: 90%;
+    height: 150px;
+    background-color: white;
+    font-family: Luminari;
+    font-size: 38px;
+    color: #a68181;
+    text-shadow: -4px 0px #594646;
+    text-align: center;
+    line-height: 150px;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #a68181;
+}
+li{
+	float: left;
+}
+li a{
+	display: block;
+	color: white;
 	text-align: center;
-	line-height: 150px;
-	padding-left: 10%;
-	padding-right: 10%;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+li a:hover:not(.active) {
+	background-color: #594646;
+}
+.active {
+	background-color: #592b2b;
+}
+.main-pic{
+	display: block;
+    margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+#separation{
+	width: 100%;
+	margin: 0 auto;
+	float: left;
+	background-color: #A68181;
+	height: 30px;
 }
