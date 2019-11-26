@@ -2,11 +2,11 @@
 /* CSS Document */
 body{
 	margin: 0 auto;
-	width: 100%;
+	width: 1366px;
 	background-color: #594646;
 }
 #container{
-	width: 100%;
+	width: 1366px;
 	margin: 0 auto;
 }
 header{
@@ -18,7 +18,7 @@ header{
 	padding-left: 1%;
 }
 h1{
-    width: 90%;
+    width: 1216px;
     height: 150px;
     background-color: white;
     font-family: Luminari;
@@ -63,4 +63,50 @@ li a:hover:not(.active) {
 	float: left;
 	background-color: #A68181;
 	height: 30px;
+}
+.articles{
+	width: 1086px;
+    height: 250px;
+    float: left;
+	background-color: white;
+    border: thin solid;
+    border-color: #594646;
+    padding-left: 5px;
+    padding-right: 15px;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-bottom: 10px;
+	margin-top: 10px;
+	font-family: "Sutro Light";
+	font-size: 18px;
+}
+.icons{
+	width: 150px;
+	margin: 10px;
+	float: left;
+	height: auto;
+	vertical-align: middle;
+}
+h2{
+	width: 100%;
+    font-family: Luminari;
+    font-size: 22px;
+    color: #a68181;
+    text-shadow: -2px 0px #594646;
+    text-align: center;
+}
+footer{
+	margin: 0 auto;
+	height: 80px;
+	width: 1366px;
+	background-color: #A68181;
+	clear: both;
+	text-align: center;
+	color: white;
+	
+}
+footer a{
+	color: white;
+	float: right;
+	padding-right: 1%;
 }
