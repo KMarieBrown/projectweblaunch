@@ -1,24 +1,26 @@
 @charset "UTF-8";
 /* CSS Document */
-container{
-	width: 1020px;
-	margin:o auto;
-}
 body{
 	margin: 0 auto;
-	width: 1020px;
+	width: auto;
 	background-color: #594646;
 }
-header{
-	width: 100%;
-	height: 115px;
-	border-radius: 10px;
+container{
+	width: 80%;
+	margin: 0 auto;
 	background-color: white;
-	font-family: Luminari, k;
-	text-align: center;
+	margin-bottom: 50px;
+}
+header{
+	width: 80%;
+	height: 150px;
+	background-color: white;
+	font-family: Luminari;
 	font-size: 20px;
-	line-height: 3;
 	color: #a68181;
 	text-shadow: -4px 0px #594646;
-	margin-bottom: 15px;
+	text-align: center;
+	line-height: 150px;
+	padding-left: 10%;
+	padding-right: 10%;
 }
