@@ -105,7 +105,7 @@ h2{
 	border-radius: 10px;
 }
 #form{
-	width: 1006;
+	width: 1006px;
     height: 900px;
     float: left;
 	background-color: white;
@@ -154,17 +154,30 @@ h3{
 }
 .icontact{
 	width: 150px;
-	margin: 105px;
+	margin-left: 105px;
+	margin-right: 105px;
+	margin-bottom: 55px;
+	margin-top: 75px;
 	float: left;
 	height: auto;
 	vertical-align: middle;
 }
 .context{
-	width: 150px;
-	margin: 105px;
-	float: left;
-	height: auto;
-	vertical-align: middle;
+	width: 175px;
+    height: 120px;
+    float: left;
+    border: thin solid;
+    border-color:#594646;
+	border-radius: 8px;
+	color: #592b2b;
+	background-color: white;
+	text-align: center;
+	font-family: 'El Messiri', sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    margin-left: 75px;
+	margin-right: 75px;
 }
 label{
 	display: block; 
