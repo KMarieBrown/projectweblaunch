@@ -138,7 +138,7 @@ h3{
 	text-align: center;
 }
 #pinkback{
-	width: 1081px;
+	width: 1086px;
     height: 450px;
     float: left;
 	background-color: #D9A9A9;
@@ -151,6 +151,20 @@ h3{
     margin-right: 130px;
 	margin-bottom: 25px;
 	margin-top: 25px;
+}
+.icontact{
+	width: 150px;
+	margin: 105px;
+	float: left;
+	height: auto;
+	vertical-align: middle;
+}
+.context{
+	width: 150px;
+	margin: 105px;
+	float: left;
+	height: auto;
+	vertical-align: middle;
 }
 label{
 	display: block; 
