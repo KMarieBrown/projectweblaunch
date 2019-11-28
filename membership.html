@@ -5,21 +5,6 @@
 <title>"I Do" Matchmaking Membership Page</title>
 	<link href="assets/styles/main.css" type="text/css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=El+Messiri|Lora|Marcellus|Philosopher&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-  <link rel="stylesheet" href="/resources/demos/style.css">
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script>
-  $( function() {
-    $( "#datepicker" ).datepicker();
-  } );
-	$( function() {
-		$( ".widget input[type=submit], .widget a, .widget button" ).button();
-		$( "button, input, a" ).click( function( event ) {
-		  event.preventDefault();
-		} );
-	  } );
-  	</script>
 </head>
 <body>
 	<div id="container">
@@ -60,7 +45,7 @@
 				<div><label for="i">Gender&#58;</label><input class="box" id="i" name="gender"></div>
 			  	<div><label for="j">Your Mate&#39;s Gender&#58;</label><input class="box" id="j" name="mategender"></div>
 				<br>
-			  	<div class="center"><input class="ui-button ui-widget ui-corner-all" type="submit" value="Submit"></div>
+			  	<div class="center"><input type="submit" value="Submit"></div>
 				</form> 
 			<p class="center">When you click the "Submit" button, the form-data will be sent and you will return to the Home Page.</p>
 			<p class="center">Thank You!</p>
