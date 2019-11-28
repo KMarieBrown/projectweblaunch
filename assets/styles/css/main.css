@@ -161,6 +161,9 @@ h3{
 	float: left;
 	height: auto;
 	vertical-align: middle;
+	border: thin solid;
+	border-radius: 100px;
+	border-color: #594646;
 }
 .context{
 	width: 175px;
@@ -173,7 +176,7 @@ h3{
 	background-color: white;
 	text-align: center;
 	font-family: 'El Messiri', sans-serif;
-    padding-left: 15px;
+    padding-left: 20px;
     padding-right: 15px;
     padding-bottom: 15px;
     margin-left: 75px;
