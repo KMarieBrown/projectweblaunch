@@ -56,7 +56,6 @@ li a:hover:not(.active) {
 	display: block;
     margin-left: auto;
 	margin-right: auto;
-	width: 80%;
 }
 #separation{
 	width: 100%;
