@@ -5,6 +5,21 @@
 <title>"I Do" Matchmaking Membership Page</title>
 	<link href="assets/styles/main.css" type="text/css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=El+Messiri|Lora|Marcellus|Philosopher&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
+	$( function() {
+		$( ".widget input[type=submit], .widget a, .widget button" ).button();
+		$( "button, input, a" ).click( function( event ) {
+		  event.preventDefault();
+		} );
+	  } );
+  	</script>
 </head>
 <body>
 	<div id="container">
@@ -26,17 +41,30 @@
 		<img src="assets/images/51.jpg" class="main-pic" height="370" alt="Husband and wife making hearts by holding hands">
 			</section>
 		<section id="separation">
-		</section>
+			</section>
 		<section>
-		</section>
-		<section>
-			<article>
-			</article>
-			<article>
-			</article>
-			<article>
-			</article>
-			<article>
+		<article id="form">
+			<h2>Become A Member</h2>
+			<p class="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<h3>Application</h3>		
+			<form action="index.html" autocomplete="off">
+				<div><label for="a">First Name&#58;</label><input class="box" id="a" name="firstname"></div>
+				<div><label for="b">Last Name&#58;</label><input class="box" id="b" name="lastname"></div>
+				<div><label for="c">Street Address&#58;</label><input class="box" id="c" name="address"></div>
+				<div><label for="d">City&#58;</label><input class="box" id="d" name="city"></div>
+				<div><label for="e">State&#58;</label><input class="box" id="e" name="state"></div>
+				<div><label for="f">Zipcode&#58;</label><input class="box" id="f" name="zipcode"></div>
+				<div><label for="g">Email Address&#58;</label><input class="box" id="g" name="email"></div>
+				<div><label for="h">Telephone Number&#58;</label><input class="box" id="h" name="telephone"></div>
+				<div><label for="datepicker">Date of Birth&#58;</label><input type="text" id="datepicker" name="datepicker" class="box"></div>
+				<div><label for="i">Gender&#58;</label><input class="box" id="i" name="gender"></div>
+			  	<div><label for="j">Your Mate&#39;s Gender&#58;</label><input class="box" id="j" name="mategender"></div>
+				<br>
+			  	<div class="center"><input class="ui-button ui-widget ui-corner-all" type="submit" value="Submit">
+					</div>
+				</form> 
+			<p class="center">When you click the "Submit" button, the form-data will be sent and you will return to the Home Page.</p>
+			<p class="center">Thank You!</p>
 			</article>
 		</section>
 	</div>

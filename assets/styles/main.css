@@ -104,6 +104,44 @@ h2{
     width: 140px;
 	border-radius: 10px;
 }
+#form{
+	width: 1006;
+    height: 900px;
+    float: left;
+	background-color: white;
+    border: thin solid;
+    border-color: #594646;
+    padding-left: 50px;
+    padding-right: 50px;
+	padding-bottom: 20px;
+    margin-left: 130px;
+    margin-right: 130px;
+	margin-bottom: 20px;
+	font-family: 'El Messiri', sans-serif;
+	font-size: 18px;
+	text-align: left;
+}
+h3{
+	width: 100%;
+    font-family: Luminari;
+    font-size: 20px;
+    color: #a68181;
+    text-shadow: -1px 0px #594646;
+    text-align: center;
+}
+.box{
+	width: 806px;
+	font-size: 16px;
+	font-family: 'El Messiri', sans-serif;
+	}
+.center{
+	text-align: center;
+}
+label{
+	display: block; 
+	width: 10em; 
+	float: left;
+}
 footer{
 	margin: 0 auto;
 	height: 70px;
